@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 30px;
+  background: #f3f0ff;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.lyrics {
+  width: 100%;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.lyrics h1,
+.lyrics h2,
+.lyrics h3,
+.lyrics .footer {
+  text-align: center;
+}
+
+.lyrics h1 {
+  color: #6c4ab6;
+  font-size: 30px;
+}
+
+.lyrics h2 {
+  color: #888;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.lyrics h3 {
+  color: #6c4ab6;
+  margin-top: 25px;
+}
+
+.lyrics .about {
+  text-align: center;
+  line-height: 1.8;
+}
+
+.lyrics pre {
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  text-align: center;
+}
+
+.lyrics hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 25px 0;
+}
+
+.lyrics .footer {
+  color: #888;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .lyrics {
+    margin: 10px auto;
+    padding: 20px 15px;
+  }
+
+  .lyrics pre {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,95 @@
+import "./App.css";
+
+function App() {
+  return (
+    <div className="lyrics">
+      <h1>Glad You Came</h1>
+      <h2>The Wanted</h2>
+
+      <hr />
+
+      <h3>About the Song</h3>
+      <p>
+        A pop hit about meeting someone special and enjoying
+        a magical moment together.
+      </p>
+
+      <h3>Verse 1</h3>
+      <pre>
+        {`The sun goes down
+        The stars come out
+        And all that counts
+        Is here and now
+        My universe will never be the same
+        I'm glad you came
+
+        You cast a spell on me, spell on me
+        You hit me like the sky fell on me, fell on me
+        And I decided you look well on me, well on me
+        So let's go somewhere no one else can see, you and me
+
+        Turn the lights out now
+        Now I'll take you by the hand
+        Hand you another drink
+        Drink it if you can
+        Can you spend a little time,
+        Time is slipping away,
+        Away from us so stay,
+        Stay with me I can make,
+        Make you glad you came
+
+        The sun goes down
+        The stars come out
+        And all that counts
+        Is here and now
+        My universe will never be the same
+        I'm glad you came
+        I'm glad you came
+
+        You cast a spell on me, spell on me
+        You hit me like the sky fell on me, fell on me
+        And I decided you look well on me, well on me
+        So let's go somewhere no one else can see, you and me
+
+        Turn the lights out now
+        Now I'll take you by the hand
+        Hand you another drink
+        Drink it if you can
+        Can you spend a little time,
+        Time is slipping away,
+        Away from us so stay,
+        Stay with me I can make,
+        Make you glad you came
+
+        The sun goes down
+        The stars come out
+        And all that counts
+        Is here and now
+        My universe will never be the same
+        I'm glad you came
+        I'm glad you came
+
+        I'm glad you came
+        So glad you came
+        I'm glad you came
+        I'm glad you came
+
+        The sun goes down
+        The stars come out
+        And all that counts
+        Is here and now
+        My universe will never be the same
+        I'm glad you came
+        I'm glad you came
+       `}
+      </pre>
+      <hr />
+
+      <p className="footer">
+        Song: Glad You Came | Artist: The Wanted
+      </p>
+    </div>
+  );
+}
+
+export default App;
